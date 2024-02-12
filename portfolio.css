@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: 7%; */
+}
+
+nav {
+    /* border: 1px solid black; */
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chat {
+    border: 1px solid black;
+    width: 60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    border: 1px solid black;
+    width: 100%;
+    height: 430px;
+    display: flex;
+}
+
+#part1 {
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 50%;
+    height: 330px;
+    display: flex;
+
+}
+
+#part2 {
+    /* border: 1px solid black; */
+    background-color: bisque;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./Developer.jpg);
+    background-size: 100% 100%;
+    backface-visibility: .5;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    gap: 25px;
+
+}
+
+footer {
+    border: 1px solid black;
+    background-color: rgb(201, 14, 24);
+    width: 50%;
+    height: 99px;
+    margin-top: -100px;
+    display: flex;
+
+}
+
+#devloper {
+
+    border: 1px solid black;
+    background-color: skyblue;
+    width: 100px;
+    height: 55px;
+
+    border-radius: 100px;
+}
+
+#article {
+    border: 0px solid black;
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#Hire {
+    border: 1px solid black;
+    width: 90px;
+    height: 30px;
+}
+
+.bold {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.basket {
+    border: 0px solid black;
+    width: 130px;
+    height: 180px;
+    margin-left: 250px;
+    margin-top: -180px;
+}
+.bold1{
+    font-weight: bolder;
+}
+#part2 img{
+    height: 60px; 
+}
+.icona{
+    padding-right: 80%;
+}
+.iconb{
+    padding-left: 80%;
+}
+p{
+    color: #fff;
+    font-weight: bolder;
+    font-size: larger;
+}
+.box{
+    height: 6.3rem;
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.box1{
+    height: 6.3rem;
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+}
+.box1 h5{
+    font-size: 10px;
+    
+}
+.box1 h6{
+    font-size: 10px;
+    margin-left: 58%;
+    margin-top: -2rem;
+}
+.box1 hr{
+    margin-top: -1rem;
+    width: 11rem;
+    margin-left: 0.05rem;
+}
+.box h2 ,h3{
+    font-size: 12px;
+}
+button{
+    background-color: orangered;
+    text-decoration: none;
+}
